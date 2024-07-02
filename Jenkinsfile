@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'us-east-1'
         ECR_REPO = 'myapp'
-        URL_REGISTRY = '975050149041.dkr.ecr.us-east-1.amazonaws.com/myapp' // Replace with your ECR registry URL
+        URL_REGISTRY = '975050149041.dkr.ecr.us-east-1.amazonaws.com' // Replace with your ECR registry URL
     }
 
     stages {
